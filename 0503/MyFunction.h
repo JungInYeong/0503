@@ -1,4 +1,6 @@
 #pragma once
+#ifndef _MYFUC_
+#define _MYFUC_
 #include <iostream>
 #include <vector>
 #include<string>
@@ -14,3 +16,4 @@ namespace My_Functions
 	void printFastbirth(int studentnum, vector<string>& names, vector<int>& ages, vector<string>& births);  // 가장빠른 생일 구하는 함수
 }
 
+#endif

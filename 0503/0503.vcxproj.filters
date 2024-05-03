@@ -21,6 +21,9 @@
     <ClCompile Include="0502_m.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0503_m2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyFunction.h">

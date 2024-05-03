@@ -8,7 +8,7 @@ int main()
 	vector<int>ages;					// 나이 저장 벡터
 	vector<string> births(studentnum);	// 생일 저장 벡터
 
-	inputStudent(studentnum, names, ages, births);
+	My_Functions::inputStudent(studentnum, names, ages, births);
 	cout << endl;
 
 	cout << " 1) 학생 정보 출력, 2) 평균 나이, 3) 가장 빠른 생일, 4) 프로그램 종료 " << endl;
@@ -24,17 +24,17 @@ int main()
 		switch (choice)
 		{
 		case 1: // 학생정보출력
-			printStudent(names, ages, births);
+			My_Functions::printStudent(names, ages, births);
 			cout << endl;
 			break;
 
 		case 2: // 평균나이
-			printAverage(ages);
+			My_Functions::printAverage(ages);
 			cout << endl;
 			break;
 
 		case 3: // 가장빠른생일
-			printFastbirth(studentnum, names, ages, births);
+			My_Functions::printFastbirth(studentnum, names, ages, births);
 			cout << endl;
 			break;
 

@@ -38,13 +38,13 @@ void Swap(int& a, int& b)
 
 void Sort(int* numbers, int count) // numbers는 번호 배열, count는 로또번호 6개
 {
-	for (int j = 0; j < count - 1; j++) 
+	for (int i = 0; i < count - 1; i++) 
 	{
-		for (int i = 0; i < count - 1; i++) 
+		for (int j = 0; j < count - 1; j++) 
 		{
-			if (numbers[i] > numbers[i + 1])
+			if (numbers[j] > numbers[j + 1])
 			{
-				Swap(numbers[i], numbers[i + 1]); 
+				Swap(numbers[j], numbers[j + 1]); 
 				
 			}
 		}

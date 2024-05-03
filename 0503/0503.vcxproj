@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="0503_m.cpp" />
+    <ClCompile Include="0502_m.cpp" />
+    <ClCompile Include="MyFunction.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyFunction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
